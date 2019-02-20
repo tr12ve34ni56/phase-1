@@ -1,0 +1,46 @@
+
+{
+	"profile":{
+		"img":"image.jpg",
+		"name":"3veni boya",
+		"rollno":"1210",
+		"place":"guntur",
+		"email":"mymail@gmail.com"
+	},
+	"career":{
+		"info":"i want to seek a job in reputated company to explore my skills and knoweldge"
+	},
+	"education":[
+		{
+		"degree":"btech",
+		"institute":"abcinstitute",
+		"per":"90%",
+		"yop":"2021"
+		},
+	{
+		"degree":"intermediate",
+		"institute":"abccollege",
+		"per":"90%",
+		"yop":"2017"
+		},
+			{
+		"degree":"s.s.c",
+		"institute":"abcschool",
+		"per":"90%",
+		"yop":"2015"
+		}
+
+],
+	"languages":[
+		{
+			"info":"english"
+
+		},
+		{
+			"info":"telugu"
+		},
+		{
+			"info":"hindi"
+		}
+	]
+}

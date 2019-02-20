@@ -1,0 +1,105 @@
+body{
+	background: skyblue;
+}
+.maindiv{
+	background: pink;
+	display: flex;
+	/*flex-wrap: wrap;*/
+	justify-content: space-around;
+	margin: 15%;
+}
+.leftdiv{
+	background: lightgreen;
+	margin: 5%;
+	width: 65%;
+	border-radius: 2%;
+	text-align: center;
+	height: 80%;
+}
+.rightdiv{
+	background: bisque;
+	margin: 5%;
+	width: 50%;
+	height: 30%;
+	text-align: left;
+	border-radius: 5%;
+	padding: 2%;
+	
+}
+img{
+	margin: 5%;
+	width: 40%;
+	height: 40%;
+	border-radius: 5%;
+
+}
+@media screen and (min-width: 320px) and (max-width: 480px){
+body{
+	background: skyblue;
+}
+.maindiv{
+	background: pink;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	margin: 3%;
+}
+.leftdiv{
+	background: lightgreen;
+	margin: 2%;
+	width: 90%;
+	border-radius: 3%;
+	text-align: center;
+}
+.rightdiv{
+	background: bisque;
+	margin: 3%;
+	width: 90%;
+	border-radius: 3%;
+	padding: 1%;	
+}
+img{
+	margin: 5%;
+	width: 70%;
+	height: 40%;
+	border-radius: 5%;
+
+}
+}
+@media screen and (min-width: 481px) and (max-width: 670px){
+body{
+	background: skyblue;
+}
+.maindiv{
+	background: pink;
+	display: flex;
+	flex-wrap: wrap;
+	/*justify-content: space-around;*/
+	margin: 3%;
+}
+.leftdiv{
+	background: lightgreen;
+	margin: 5%;
+	width: 80%;
+	border-radius: 2%;
+	text-align: center;
+	
+}
+.rightdiv{
+	background: bisque;
+	/*margin: 5%;*/
+	width: 80%;
+	text-align: left;
+	border-radius: 5%;
+	padding: 2%;
+	
+}
+img{
+	margin: 5%;
+	width: 40%;
+	height: 40%;
+	border-radius: 5%;
+
+}
+}
+
